@@ -1,0 +1,7 @@
+{
+  "name": "ionic-sms",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
