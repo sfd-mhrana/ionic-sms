@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
-import { HomePage } from './home.page';
+import { RetrieverPage } from './retriever.page';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { RetrieverPageRoutingModule } from './retriever-routing.module';
 import { SMS } from '@awesome-cordova-plugins/sms/ngx';
 
 
@@ -13,9 +13,9 @@ import { SMS } from '@awesome-cordova-plugins/sms/ngx';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    RetrieverPageRoutingModule,
   ],
-  declarations: [HomePage],
+  declarations: [RetrieverPage],
   providers:[SMS]
 })
-export class HomePageModule {}
+export class RetrieverPageModule {}

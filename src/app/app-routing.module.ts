@@ -7,6 +7,10 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
+    path: 'sms-retriever',
+    loadChildren: () => import('./retriever/retriever.module').then( m => m.RetrieverPageModule)
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'

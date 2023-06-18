@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { SMS } from '@awesome-cordova-plugins/sms/ngx';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-retriever',
+  templateUrl: 'retriever.page.html',
+  styleUrls: ['retriever.page.scss'],
 })
-export class HomePage {
+export class RetrieverPage {
 
   sendS = true;
 
